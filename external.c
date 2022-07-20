@@ -62,7 +62,7 @@ int main(int argc, char**argv)
 	}
 	
 
-	f = fopen("cep_RJ.dat","rb");
+	f = fopen("cep_RJ.dat","rb");//Caso queira alterar o arquivo usado altere aqui. 
 	fseek(f,0,SEEK_END);
 	posicao = ftell(f);
     rewind(f);
