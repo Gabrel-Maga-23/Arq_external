@@ -62,7 +62,7 @@ int main(int argc, char**argv)
 	}
 	
 
-	f = fopen("cep_RJ","rb");
+	f = fopen("cep_RJ.dat","rb");
 	fseek(f,0,SEEK_END);
 	posicao = ftell(f);
     rewind(f);
